@@ -1,0 +1,297 @@
+/**  Note: Header Image is styled in the header-masthead.php file **/
+.navbar-fixed-with-admin-bar{
+  top: -93px; /** 125-32=93 **/
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+.navbar-fixed {
+  top: -125px;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+
+/**
+This was a silly mistake. 
+It made all the links 'unclickable!'
+
+main{
+  z-index: -1;
+}
+**/
+
+/** Sticky Footer IE 11 friendly **/
+body {
+  display: flex;
+  margin: 0;
+}
+.site {
+  flex: 1 1 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 100vh;
+}
+.site-main {
+  flex: 1 1 auto;
+}
+
+/** GENERAL **/
+a{
+  color: #1a774c;
+}
+a:hover{
+  color:#055e33;
+}
+
+.fonts-loaded h1,
+.fonts-loaded h2,
+.fonts-loaded h3{
+  font-family: 'Roboto Slab', serif;
+}
+
+.fonts-loaded h4,
+.fonts-loaded h5,
+.fonts-loaded h6,
+.fonts-loaded p,
+.fonts-loaded a{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.site{
+  padding: 0;
+}
+
+.site-content{
+  padding-left:15px;
+  padding-right:15px;
+}
+
+.btn-primary{
+  color:white !important;
+  border-color: #077F45;
+  background-color: #077F45;
+  border-radius:0;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus{
+  color:white !important;
+  border-color: #055e33;
+  background-color: #055e33;
+}
+.btn-primary:focus{
+  box-shadow: 0 0 0 3px #adcebf;
+}
+.row{
+  margin:0;
+}
+
+/** TOP NAV **/
+.navbar{
+  background-color: rgba(20%,20%,20%,.2);
+  height: 34px;
+  top: -42px;
+  /** This should fix the navbar dropdown items **/
+  z-index: 50;
+}
+.nav-item{
+  height:35px;
+}
+.nav-link{
+  padding-top: 4px;
+  padding-bottom: 5px;
+}
+.navbar-light .navbar-nav .nav-link, 
+.navbar-light .navbar-toggler{
+  color: white;
+}
+.navbar-toggler{
+  border: none;
+  border-radius: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: white;
+}
+
+.navbar-toggler {
+  height: 100% !important;
+  padding-top: 6px;
+}
+/** Two col mobile navbar dropdown **/
+@media (max-width: 767px){
+  .navbar-nav>li {
+    float: left;
+    width: 50%;
+  }
+  .navbar-nav{
+    display: initial;
+  }
+  .nav-search-li{
+    display: none;
+  }
+}
+
+.navbar{
+  padding:0;
+  /** border-bottom: #055e33 solid 1px; **/
+}
+.navbar-light .navbar-toggler:hover,
+.navbar-light .navbar-toggler:focus,
+.navbar-light .navbar-toggler:active,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:active{
+  color: white;
+  background-color: rgba(50,50,50,.2);
+}
+.navbar-light .navbar-nav .active>.nav-link{
+  color: white;
+  background-color: rgba(50,50,50,.2);
+}
+nav .collapsing, nav .show{
+  background-color: #1a774c;
+  text-align: center;
+}
+
+/** SEARCH MODAL **/
+.modal-dialog{
+  margin-top: 50px;
+}
+.modal-title{
+  font-weight: bold;
+  color:#055e33;
+  margin: auto;
+}
+.modal-header{
+  padding-bottom:5px;
+}
+.modal-header button{
+  padding-bottom: 5px;
+}
+.modal-content .form-row{
+  margin: auto;
+}
+.modal-body input{
+  border-color: #077F45;
+}
+.modal-body input:focus{
+  border-color: #adcebf;
+}
+.modal-header button{
+  color:#055e33;
+}
+.modal-header button:hover,
+.modal-header button:active,
+.modal-header button:focus{
+  color:#055e33;
+}
+
+/** modal padding fix **/
+body, header { padding-right: 0 !important }
+
+/** Footer Navs **/
+footer{
+  padding: 10px;
+  background-color: #1a774c;
+}
+.footer-nav li{
+  display: inline;
+  padding-right:15px;
+}
+.footer-nav ul{
+  list-style-type: none;
+  padding:0;
+}
+.footer-nav a{
+  color: white;
+}
+.site-info{
+  color: white;
+  padding:10px;
+}
+
+/** FRONT PAGE **/
+.front-page-header, .page-header{
+  margin-top: 25px;
+  text-align: center;
+}
+.panel-lg{
+  padding: 0;
+  margin-bottom: 25px;
+}
+.panel-lg-text{
+  background-color: rgba(100%,100%,100%,.7);
+  padding:15px;
+}
+.panel-lg-text a.more-link{
+  display:none; /** hide the exerpt **/
+}
+.cta{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.cta .btn-primary{
+  padding-left: 75px;
+  padding-right: 75px;
+}
+.featured-news .panel-lg-text{
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:150px;
+  padding-bottom:100px;
+}
+
+/** About Panel **/
+.partner-logo img {
+    background-color: white;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.partner-logo {
+    text-align: center;
+    margin-bottom:15px;
+}
+
+/** Small Panels **/
+.panel-sm-img{
+  height: 75px;
+}
+
+.panel-sm-text{
+  background-color: #e2e0ea;
+  min-height: 150px;
+  padding:15px;
+}
+.panel-sm-title{
+  color: #055e33;
+}
+.panel-sm .more-link{
+  display: none;
+}
+.panel-sm{
+  margin-bottom: 25px;
+}
+/** Sidebar **/
+.mva-sidebar{
+  background-color: white;
+  margin-top: 25px;
+}
+.mva-sidebar h2{
+  font-size: 24px;
+}
+/** 
+ * DESIGN GUIDE:
+ * Colors: 
+ *   #1a774c (Md Green)
+ *   #adcebf (Lt Green)
+ *   #055e33 (Dk Green)
+ *   #e2e0ea(panel gray)
+ * Fonts:
+ *   font-family: 'Open Sans', sans-serif;
+ *   font-family: 'Roboto Slab', serif;
+*/

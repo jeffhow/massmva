@@ -1,0 +1,182 @@
+<h3 class="text-center">Massachusetts Vocational Association (MVA)
+Association for Career and Technical Education<sup>&reg;</sup>
+MVA &amp; ACTE<sup>&reg;</sup> Membership Application</h3>
+
+The MVA and ACTE are Non-Profit Organizations and membership is open to anyone.
+<div class="row">
+  <div class="col form-check-inline">
+    Application Type: [radio radio-renewal-member class:form-class-input default:1 "Renewal" "New Member"]
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <label> Date [date* date-of-application class:form-control]</label>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-5">
+    <label> Last Name [text* last-name class:form-control size:1000] </label>
+  </div>
+  <div class="col-sm-5">
+    <label> First Name [text* first-name class:form-control size:1000] </label>
+  </div>
+  <div class="col-sm-2">
+    <label> Middle Initial [text* mi-name class:form-control size:1000] </label>
+  </div>
+</div>
+
+<h4>Home Information</h4>
+
+<div class="row">
+  <div class="col form-check">
+    [checkbox checkbox-home-changed class:form-check-input "My home info has changed since previous year"]
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <label> Street Address [text* home-street class:form-control size:1000] </label>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-6">
+    <label> City [text* home-city class:form-control size:1000] </label>
+  </div>
+  <div class="col-sm-3">
+    <label> State [text* home-state class:form-control size:1000] </label>
+  </div>
+  <div class="col-sm-3">
+    <label> Zip [text* home-zip class:form-control size:1000] </label>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <label> Telephone [text* home-telephone class:form-control size:1000] </label>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <label> E-mail [email* home-email class:form-control size:1000] </label>
+  </div>
+</div>
+
+<h4>School Information</h4>
+
+<div class="row">
+  <div class="col form-check">
+    [checkbox checkbox-school-changed class:form-check-input "My school info has changed since previous year"]
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <label> Street Address [text school-street class:form-control size:1000] </label>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-6">
+    <label> City [text school-city class:form-control size:1000] </label>
+  </div>
+  <div class="col-sm-3">
+    <label> State [text school-state class:form-control size:1000] </label>
+  </div>
+  <div class="col-sm-3">
+    <label> Zip [text school-zip class:form-control size:1000] </label>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-5">
+    <label> Telephone [text school-telephone class:form-control size:1000] </label>
+  </div>
+  <div class="col-sm-2">
+    <label> Extention [text school-ext class:form-control size:1000] </label>
+  </div>
+  <div class="col-sm-5">
+    <label> Fax [text school-fax class:form-control size:1000] </label>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <label> E-mail [email* school-email class:form-control size:1000] </label>
+  </div>
+</div>
+<h4>Job Classification</h4>
+<div class="row">
+  <div class="col-sm form-check">
+    [checkbox checkbox-job-teacher-secondary class:form-check-input "Teacher, Secondary"]
+    [checkbox checkbox-job-teacher-post class:form-check-input "Teacher, Post-Secondary"]
+    [checkbox checkbox-job-administrator class:form-check-input "Administrator/Supervisor"]
+    [checkbox checkbox-job-business-industry-rep class:form-check-input "Business Industry Representative"]
+  </div>
+  <div class="col-sm form-check">
+    [checkbox checkbox-job-counselor class:form-check-input "Counselor"]
+    [checkbox checkbox-job-student class:form-check-input "Student"]
+    [checkbox checkbox-job-parent class:form-check-input "Parent"]
+    [checkbox checkbox-job-retired class:form-check-input "Retired"]
+  </div>
+</div>
+<div class="row" style="margin-top:20px">
+  <div class="col-sm-3 form-check">
+    [checkbox checkbox-job-other class:form-check-input "Other"]
+  </div>
+  <div class="col-sm-9">
+    [text job-other-descripton class:form-control size:1000 placeholder "Other"]
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <label>Areas of Certification [textarea textarea-certifications class:form-control 1000x placeholder "Please enter all areas of certification"]</label>
+  </div>
+</div>
+<h4>Membership Options</h4>
+<small>(Remember to check our website for MVA &amp; ACTE updates)</small>
+<div class="row">
+  <div class="col form-check">
+    [radio radio-mva-fee class:form-check-input default:1 "$30 MVA Active" "$10 MVA Loyalty (Retired Members Only"]
+    [checkbox checkbox-acte-fee class:form-check-input "$80 ACTE Active*"]
+    <p><em>*Massachusetts teachers and administrators are encouraged to join ACTE, our national voice for CTE.</em></p>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <label> Amount Paid: [text amount-paid class:form-control size:1000 placeholder "$"] </label>
+  </div>
+</div>
+<hr>
+<h5>Payroll Deductions</h5>
+<div class="row">
+  <div class="col">
+    <p>If your school offers payroll deduction, please use the section below</p>
+    [checkbox checkbox-payroll-deduction-auth class:form-check-input "I authorize the busines office to deduct my MVA dues from my pay each year. If I decide not to  renew my MVA membership, I will  notify payroll in writing 30 days prior to the start of the payroll deduction beginning for the new membership year."]
+    <label> Date: [date date-of-authorization class:form-control] </label>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <label> Purchase Order #: [text purchase-order class:form-control size:1000] </label>
+  </div>
+  <div class="col">
+    <label> Check #: [text check-number class:form-control size:1000] </label>
+  </div>
+  <div class="col">
+    <label> Total Amount: [text amount-authorized class:form-control size:1000 placeholder "$"] </label>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <div class="text-center"
+      <p>After submitting application, please mail purchase order or check made payable to:</p>
+      <h5>MVA</h5>
+      <p>Attn: Jennifer Karamanian</p>
+      <p>Briston-Plymouth Regional Technical School</p>
+      <p>207 Hart Street</p>
+      <p>Taunton, MA 02780</p>
+
+      <p><strong><em>Thank you for your support!</em></strong></p>
+      <div class="mx-auto" style="width:318px">
+        [recaptcha]
+      </div>
+      <div class="cta">
+        [submit class:btn class:btn-primary "Submit Application"]
+      </div>
+    </div>
+  </div>
+</div>
