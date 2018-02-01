@@ -284,6 +284,11 @@ footer{
 .mva-sidebar h2{
   font-size: 24px;
 }
+/* News Row margin */
+.news-row{
+  margin-top:15px;
+}
+
 /** 
  * DESIGN GUIDE:
  * Colors: 

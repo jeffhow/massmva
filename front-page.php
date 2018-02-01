@@ -104,7 +104,7 @@ $max = count( $thumbnails ) - 1;
 	  endif; ?>
 	</div></div><!-- /.col /.row -->
 		
-	<div class="row">
+	<div class="row news-row">
 		<?php
 		/**
 		 * News Links
